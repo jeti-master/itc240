@@ -1,3 +1,4 @@
+<?php include 'config.php'?>
 <?php include 'header.php'?>
 
           <p>Want to request a blog entry? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>

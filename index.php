@@ -1,3 +1,4 @@
+<?php include 'config.php'?>
 <?php include 'header.php'; ?>
 
           <div class="post-preview">
