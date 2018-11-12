@@ -36,7 +36,7 @@
                 </a>
               </li>
             </ul>
-            <p class="copyright text-muted">Copyright &copy; Your Website 2018</p>
+            <p class="copyright text-muted">Copyright &copy; codeBlog <?php echo date('Y'); ?></p>
           </div>
         </div>
       </div>

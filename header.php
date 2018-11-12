@@ -25,9 +25,11 @@
       hr {background: #999;}
       #mfesecure-ts-image {display: none;}
       .site-heading h1, .site-heading span{font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;}
+      
       .post-preview a, .post-preview p.post-meta a {color: #fff;}
+      ul.links li a{color:white;}
     </style>
-
+<style></style>
   </head>
 
   <body>
@@ -46,10 +48,13 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="about.php">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="post.html">Sample Post</a>
+              <a class="nav-link" href="daily.php">Daily</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blogs.php">Blogs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="request.php">Request Blog</a>
@@ -69,8 +74,8 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-              <h1>codeBlog{</h1>
-              <span class="subheading"><strong>Adventures_in_code[...]</strong></span>
+              <h1><?=$siteName?></h1>
+              <span class="subheading"><strong><?=$slogan?></strong></span>
             </div>
           </div>
         </div>
@@ -81,8 +86,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-        <!--<div class="page-heading">
-              <h1>Page Heading Goes Here!</h1>
-              <span class="subheading">Clever comment here!</span>
-        </div>-->
+        <div class="page-heading">
+              <h1><?=$heading?></h1>
+              <span class="subheading"><?=$subheading?></span>
+        </div>
           <!-- header ends here -->

@@ -2,7 +2,7 @@
 <?php include 'header.php'; ?>
 
           <div class="post-preview">
-            <a href="post.html">
+            <a href="post.php">
               <h2 class="post-title">
                 Every programmer's worst nightmare
               </h2>
@@ -16,7 +16,7 @@
           </div>
           <hr>
           <div class="post-preview">
-            <a href="post.html">
+            <a href="post.php">
               <h2 class="post-title">
                 I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
               </h2>
@@ -27,7 +27,7 @@
           </div>
           <hr>
           <div class="post-preview">
-            <a href="post.html">
+            <a href="post.php">
               <h2 class="post-title">
                 Science has not yet mastered prophecy
               </h2>
@@ -41,7 +41,7 @@
           </div>
           <hr>
           <div class="post-preview">
-            <a href="post.html">
+            <a href="post.php">
               <h2 class="post-title">
                 Failure is not an option
               </h2>
@@ -56,7 +56,7 @@
           <hr>
           <!-- Pager -->
           <div class="clearfix">
-            <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+            <a class="btn btn-primary float-right" href="blogs.php">Older Posts &rarr;</a>
           </div>
 
 <?php include 'footer.php'; ?>
